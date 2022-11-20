@@ -1,0 +1,47 @@
+:root {
+    --background: #6c5b7b;
+    --highlight: #f8b195;
+    --main: #c06c84;
+    --dark: #355c7d;
+    --light: #f67280;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.card-container {
+    display: flex;
+    margin-top: 20vh;
+    vertical-align:middle;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    background-color: var(--dark);
+    height: 60vh;
+    aspect-ratio: 2/3;
+    font-size: 3vh;
+    border-radius: 1vh;
+    border: 0.1vh solid transparent;
+    transition-duration: 0.7s;
+    
+}
+
+.card:hover {
+    border-color: var(--highlight);
+}
+
+.card-content {
+    color: var(--main);
+    text-align: center;
+}
+
+.arrow {
+    padding: 1vh;
+    padding-top: 27vh;
+    color: var(--light);
+}
